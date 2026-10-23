@@ -12,6 +12,7 @@ Báo cáo tiến độ 1 — Học phần Cấu trúc dữ liệu và giải thu
 - **Giảng viên hướng dẫn**: Hồ Nhựt Minh
 - **Căn cứ giáo trình**: *Giáo trình Cấu trúc dữ liệu và Giải thuật (INT1306)* — Chương 4, Mục 4.1.3 "Tìm đồng thời giá trị nhỏ nhất và lớn nhất"; Bài tập chương 4, câu 18; Trang in: 91–92, 111; Trang PDF: 103–104, 123.
 - **Ngôn ngữ lập trình & Phiên bản**: Julia 1.12.7
+- **URL Repository GitHub**: `https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam`
 
 ---
 
