@@ -99,8 +99,8 @@ julia --startup-file=no test/runtests.jl
 ## 6. Mốc Git Commit C (Tiến độ 2)
 
 - **Commit message chuẩn**: `feat: complete algorithm, 12 test cases and benchmark`
-- **Mã SHA C (40 ký tự)**: `6a186eace8934a81795104bc494d83eb3633124e`
-- **Permalink tệp thuật toán chính tại C**: [src/DeTai.jl](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/6a186eace8934a81795104bc494d83eb3633124e/src/DeTai.jl)
-- **Permalink tệp bộ kiểm thử tại C**: [test/runtests.jl](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/6a186eace8934a81795104bc494d83eb3633124e/test/runtests.jl)
-- **URL Commit C**: [Commit 6a186ea](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/commit/6a186eace8934a81795104bc494d83eb3633124e)
+- **Mã SHA C (40 ký tự)**: `43bc4a301fafb9d54c9396c20bfcfe67fded5a1e` (và commit gốc: `6a186eace8934a81795104bc494d83eb3633124e`)
+- **Permalink tệp thuật toán chính tại C**: [src/DeTai.jl](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e/src/DeTai.jl)
+- **Permalink tệp bộ kiểm thử tại C**: [test/runtests.jl](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e/test/runtests.jl)
+- **URL Commit C**: [Commit 43bc4a3](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/commit/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e)
 

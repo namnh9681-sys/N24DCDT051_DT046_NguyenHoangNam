@@ -8,10 +8,10 @@ Mã đề: DT046
 Tên đề: Tìm đồng thời giá trị nhỏ nhất và lớn nhất
 
 URL GitHub thật: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam
-SHA C đầy đủ của mã/test/input dùng chạy và chụp ảnh: 6a186eace8934a81795104bc494d83eb3633124e
-Permalink tệp thuật toán chính tại C: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/6a186eace8934a81795104bc494d83eb3633124e/src/DeTai.jl
-Permalink tệp kiểm thử tại C: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/6a186eace8934a81795104bc494d83eb3633124e/test/runtests.jl
-SHA S đầy đủ của phiên bản nộp cuối: 6a186eace8934a81795104bc494d83eb3633124e
+SHA C đầy đủ của mã/test/input dùng chạy và chụp ảnh: 43bc4a301fafb9d54c9396c20bfcfe67fded5a1e
+Permalink tệp thuật toán chính tại C: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e/src/DeTai.jl
+Permalink tệp kiểm thử tại C: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e/test/runtests.jl
+SHA S đầy đủ của phiên bản nộp cuối: 43bc4a301fafb9d54c9396c20bfcfe67fded5a1e
 Xác nhận mã/test/input không đổi giữa C và S, hoặc mô tả phần đã chạy lại: Mã nguồn, test và input đồng nhất giữa C và S tại Mốc 2.
 
 Ngôn ngữ và phiên bản: Julia 1.12.7
