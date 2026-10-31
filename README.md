@@ -1,6 +1,6 @@
 # DT046 — TÌM ĐỒNG THỜI GIÁ TRỊ NHỎ NHẤT VÀ LỚN NHẤT
 
-Báo cáo tiến độ 1 — Học phần Cấu trúc dữ liệu và giải thuật (INT13185 - Nhóm 03).
+Báo cáo tiến độ 2 (Mốc 2) — Học phần Cấu trúc dữ liệu và giải thuật (INT13185 - Nhóm 03).
 
 ## 1. Thông tin sinh viên & Đề tài
 
@@ -10,6 +10,7 @@ Báo cáo tiến độ 1 — Học phần Cấu trúc dữ liệu và giải thu
 - **Mã đề tài**: DT046
 - **Tên đề tài**: Tìm đồng thời giá trị nhỏ nhất và lớn nhất
 - **Giảng viên hướng dẫn**: Hồ Nhựt Minh
+- **Khoa**: Kỹ thuật Điện tử 2 | **Ngành**: Kỹ thuật Điện - Điện tử
 - **Căn cứ giáo trình**: *Giáo trình Cấu trúc dữ liệu và Giải thuật (INT1306)* — Chương 4, Mục 4.1.3 "Tìm đồng thời giá trị nhỏ nhất và lớn nhất"; Bài tập chương 4, câu 18; Trang in: 91–92, 111; Trang PDF: 103–104, 123.
 - **Ngôn ngữ lập trình & Phiên bản**: Julia 1.12.7
 - **URL Repository GitHub**: `https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam`
@@ -40,14 +41,15 @@ Viết chương trình tìm cả số nhỏ nhất và lớn nhất bằng cách
 ```
 N24DCDT051_DT046_NguyenHoangNam/
 ├── .gitignore
-├── demo.jl              # Kịch bản chạy demo 2 ví dụ và 5 ca kiểm tra
+├── demo.jl              # Kịch bản chạy demo tổng hợp (2 ví dụ + ca tự thiết kế + biên + lỗi)
+├── benchmark.jl         # Kịch bản đo đạc thực nghiệm trên 4 quy mô n in {5, 20, 100, 500}
 ├── README.md            # Tài liệu hướng dẫn và thông tin đồ án
 ├── src/
 │   └── DeTai.jl         # Module DeTai: kiem_tra_dau_vao, min_max, min_max_truc_tiep, giai_bai
 ├── test/
-│   └── runtests.jl      # Bộ kiểm thử 34 phép assert (6 nhóm ca kiểm tra)
+│   └── runtests.jl      # Bộ kiểm thử toàn diện 12 ca độc lập (45 phép assert PASS)
 └── docs/
-    └── anh_ket_qua/     # Thư mục lưu trữ hình ảnh minh chứng
+    └── anh_ket_qua/     # Thư mục 11 ảnh minh chứng A01 - A11
 ```
 
 ---
@@ -60,10 +62,13 @@ Mở terminal / PowerShell tại thư mục đồ án:
 # 1. Kiểm tra phiên bản Julia
 julia --version
 
-# 2. Chạy kịch bản Demo (2 ví dụ + 5 ca trên phiếu)
+# 2. Chạy kịch bản Demo tổng hợp
 julia --startup-file=no demo.jl
 
-# 3. Chạy toàn bộ các ca kiểm thử tự động
+# 3. Chạy đo đạc thực nghiệm 4 quy mô n in {5, 20, 100, 500}
+julia --startup-file=no benchmark.jl
+
+# 4. Chạy toàn bộ bộ kiểm thử 12 ca độc lập
 julia --startup-file=no test/runtests.jl
 ```
 
@@ -73,13 +78,18 @@ julia --startup-file=no test/runtests.jl
 
 | Ca kiểm tra | Input `a` | Expected Output | Kết quả thực tế | Trạng thái |
 | :--- | :--- | :--- | :--- | :--- |
-| **Ví dụ 1** | `[-3, 7, 2, 9]` | `min = -3, max = 9, so_sanh = 4` | `(-3, 9, 4)` | **PASS** |
-| **Ví dụ 2** | `[5]` | `min = 5, max = 5, so_sanh = 0` | `(5, 5, 0)` | **PASS** |
-| **Ca 1** | `[8, 2]` | `min = 2, max = 8, so_sanh = 1` | `(2, 8, 1)` | **PASS** |
-| **Ca 2** | `[4, 4]` | `min = 4, max = 4, so_sanh = 1` | `(4, 4, 1)` | **PASS** |
-| **Ca 3** | `[-5, -1, -3]` | `min = -5, max = -1, so_sanh = 3` | `(-5, -1, 3)` | **PASS** |
-| **Ca 4** | `[1, 2, 3, 4, 5, 6, 7, 8]` | `min = 1, max = 8, so_sanh = 10` | `(1, 8, 10)` | **PASS** |
-| **Ca 5** | `[9, 1, 7, 3, 5]` | `min = 1, max = 9, so_sanh = 6` | `(1, 9, 6)` | **PASS** |
+| **Ví dụ 1 (VD01)** | `[-3, 7, 2, 9]` | `min = -3, max = 9, so_sanh = 4` | `(-3, 9, 4)` | **PASS** |
+| **Ví dụ 2 (VD02)** | `[5]` | `min = 5, max = 5, so_sanh = 0` | `(5, 5, 0)` | **PASS** |
+| **Ca 1 (KT09)** | `[8, 2]` | `min = 2, max = 8, so_sanh = 1` | `(2, 8, 1)` | **PASS** |
+| **Ca 2 (TK02)** | `[4, 4]` | `min = 4, max = 4, so_sanh = 1` | `(4, 4, 1)` | **PASS** |
+| **Ca 3 (KT10)** | `[-5, -1, -3]` | `min = -5, max = -1, so_sanh = 3` | `(-5, -1, 3)` | **PASS** |
+| **Ca 4 (KT11)** | `[1, 2, 3, 4, 5, 6, 7, 8]` | `min = 1, max = 8, so_sanh = 10` | `(1, 8, 10)` | **PASS** |
+| **Ca 5 (KT12)** | `[9, 1, 7, 3, 5]` | `min = 1, max = 9, so_sanh = 6` | `(1, 9, 6)` | **PASS** |
+| **Tự thiết kế 1 (TK01)** | `[100, 50, 20, 10, 0, -10]` | `min = -10, max = 100, so_sanh = 8` | `(-10, 100, 8)` | **PASS** |
+| **Tự thiết kế 2 (TK02)** | `[7, 7, 7, 7]` | `min = 7, max = 7, so_sanh = 4` | `(7, 7, 4)` | **PASS** |
+| **Biên 1 (BIEN01)** | `[-1000]` | `min = -1000, max = -1000, so_sanh = 0` | `(-1000, -1000, 0)` | **PASS** |
+| **Biên 2 (BIEN02)** | `[-1000, 1000]` | `min = -1000, max = 1000, so_sanh = 1` | `(-1000, 1000, 1)` | **PASS** |
+| **Biên 3 (BIEN03)** | `a_1024` ($n=1024$) | `min = -500, max = 500, so_sanh = 1534` | `(-500, 500, 1534)` | **PASS** |
 
-- **Tổng kết kiểm thử**: Đạt 34/34 phép kiểm tra trong `test/runtests.jl`.
-- **Hiệu quả**: Khi $n = 2^k$, thuật toán chia để trị thực hiện $T(n) = \frac{3n}{2} - 2$ phép so sánh, tiết kiệm khoảng $25\%$ số phép so sánh so với phương pháp duyệt trực tiếp $2n - 2$.
+- **Tổng kết kiểm thử**: Đạt 45/45 phép kiểm tra (12 ca độc lập) trong `test/runtests.jl`.
+- **Hiệu quả thực nghiệm**: Thuật toán chia để trị thực hiện $T(n) = \frac{3n}{2} - 2$ phép so sánh (với $n = 2^k$), tiết kiệm $\approx 25\%$ số phép so sánh so với duyệt trực tiếp $2n - 2$.
