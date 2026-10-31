@@ -93,3 +93,14 @@ julia --startup-file=no test/runtests.jl
 
 - **Tổng kết kiểm thử**: Đạt 45/45 phép kiểm tra (12 ca độc lập) trong `test/runtests.jl`.
 - **Hiệu quả thực nghiệm**: Thuật toán chia để trị thực hiện $T(n) = \frac{3n}{2} - 2$ phép so sánh (với $n = 2^k$), tiết kiệm $\approx 25\%$ số phép so sánh so với duyệt trực tiếp $2n - 2$.
+
+---
+
+## 6. Mốc Git Commit C (Tiến độ 2)
+
+- **Commit message chuẩn**: `feat: complete algorithm, 12 test cases and benchmark`
+- **Mã SHA C (40 ký tự)**: `6a186eace8934a81795104bc494d83eb3633124e`
+- **Permalink tệp thuật toán chính tại C**: [src/DeTai.jl](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/6a186eace8934a81795104bc494d83eb3633124e/src/DeTai.jl)
+- **Permalink tệp bộ kiểm thử tại C**: [test/runtests.jl](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/6a186eace8934a81795104bc494d83eb3633124e/test/runtests.jl)
+- **URL Commit C**: [Commit 6a186ea](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/commit/6a186eace8934a81795104bc494d83eb3633124e)
+

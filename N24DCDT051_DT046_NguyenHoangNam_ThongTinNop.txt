@@ -1,0 +1,36 @@
+THÔNG TIN NỘP ĐỀ TÀI CÁ NHÂN
+INT13185 — Nhóm 03
+
+Họ và tên: Nguyễn Hoàng Nam
+MSSV: N24DCDT051
+Lớp: D24CQDT01-N
+Mã đề: DT046
+Tên đề: Tìm đồng thời giá trị nhỏ nhất và lớn nhất
+
+URL GitHub thật: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam
+SHA C đầy đủ của mã/test/input dùng chạy và chụp ảnh: 6a186eace8934a81795104bc494d83eb3633124e
+Permalink tệp thuật toán chính tại C: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/6a186eace8934a81795104bc494d83eb3633124e/src/DeTai.jl
+Permalink tệp kiểm thử tại C: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/6a186eace8934a81795104bc494d83eb3633124e/test/runtests.jl
+SHA S đầy đủ của phiên bản nộp cuối: 6a186eace8934a81795104bc494d83eb3633124e
+Xác nhận mã/test/input không đổi giữa C và S, hoặc mô tả phần đã chạy lại: Mã nguồn, test và input đồng nhất giữa C và S tại Mốc 2.
+
+Ngôn ngữ và phiên bản: Julia 1.12.7
+Lệnh chạy ví dụ 1: julia --startup-file=no demo.jl
+Lệnh chạy ví dụ 2: julia --startup-file=no demo.jl
+Lệnh nhập dữ liệu mới: julia --startup-file=no demo.jl --nhap
+Lệnh đo đạc thực nghiệm: julia --startup-file=no benchmark.jl
+Lệnh biên dịch (nếu dùng C++): Không áp dụng (sử dụng Julia)
+Lệnh chạy bộ kiểm thử: julia --startup-file=no test/runtests.jl
+Số ca kiểm độc lập: 12
+Số phép kiểm đạt / tổng số phép kiểm: 45 / 45
+
+Đã có đủ 11 ảnh cá nhân trong báo cáo và ZIP (Có/Chưa): Có
+Ảnh A10 clone/chạy C đã có (Có/Chưa): Có
+Đã clone SHA S vào thư mục mới và chạy lại (Có/Chưa): Có
+Tóm tắt kết quả chạy lại hai ví dụ và bộ test từ S: Ví dụ 1 đạt 4 so sánh; Ví dụ 2 đạt 0 so sánh; toàn bộ 45/45 phép kiểm tra trong test/runtests.jl đạt Pass.
+Giảng viên truy cập được GitHub và permalink (Có/Chưa): Có
+
+Tên tệp Word nộp: N24DCDT051_DT046_NguyenHoangNam_BaoCao_TienDo2.docx
+Tên tệp PDF nộp: N24DCDT051_DT046_NguyenHoangNam_BaoCao_TienDo2.pdf
+Tên tệp ZIP mã nguồn nộp: N24DCDT051_DT046_NguyenHoangNam_MaNguon.zip
+Ngày hoàn tất: 31/10/2026
