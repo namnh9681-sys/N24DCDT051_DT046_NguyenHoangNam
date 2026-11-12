@@ -1,6 +1,6 @@
 # DT046 — TÌM ĐỒNG THỜI GIÁ TRỊ NHỎ NHẤT VÀ LỚN NHẤT
 
-Báo cáo tiến độ 2 (Mốc 2) — Học phần Cấu trúc dữ liệu và giải thuật (INT13185 - Nhóm 03).
+Báo cáo Final (Mốc 3 - Báo cáo cuối kỳ) — Học phần Cấu trúc dữ liệu và giải thuật (INT13185 - Nhóm 03).
 
 ## 1. Thông tin sinh viên & Đề tài
 
@@ -103,4 +103,21 @@ julia --startup-file=no test/runtests.jl
 - **Permalink tệp thuật toán chính tại C**: [src/DeTai.jl](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e/src/DeTai.jl)
 - **Permalink tệp bộ kiểm thử tại C**: [test/runtests.jl](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e/test/runtests.jl)
 - **URL Commit C**: [Commit 43bc4a3](https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/commit/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e)
+
+---
+
+## 7. Mốc Git Commit S (Báo cáo Final - Mốc 3)
+
+- **Commit message**: `feat: complete final report, reproducibility verification and submission package`
+- **Mã SHA C gốc (40 ký tự)**: `43bc4a301fafb9d54c9396c20bfcfe67fded5a1e`
+- **Tập tin báo cáo hoàn thiện**:
+  - Word: `N24DCDT051_DT046_NguyenHoangNam_BaoCao.docx`
+  - PDF: `N24DCDT051_DT046_NguyenHoangNam_BaoCao.pdf`
+- **Khả năng tái lập (Reproducibility)**: Toàn bộ mã nguồn và kịch bản kiểm thử độc lập được xác nhận chạy đạt 100% PASS (45/45 phép kiểm tra) từ môi trường clone sạch.
+- **Bốn sản phẩm nộp cuối kỳ theo quy định môn học**:
+  1. `N24DCDT051_DT046_NguyenHoangNam_BaoCao.docx`
+  2. `N24DCDT051_DT046_NguyenHoangNam_BaoCao.pdf`
+  3. `N24DCDT051_DT046_NguyenHoangNam_MaNguon.zip` (đã loại bỏ thư mục ẩn `.git`)
+  4. `N24DCDT051_DT046_NguyenHoangNam_ThongTinNop.txt`
+
 
