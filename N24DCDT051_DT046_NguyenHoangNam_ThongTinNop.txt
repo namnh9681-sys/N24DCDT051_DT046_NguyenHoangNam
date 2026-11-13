@@ -11,7 +11,7 @@ URL GitHub thật: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoang
 SHA C đầy đủ của mã/test/input dùng chạy và chụp ảnh: 43bc4a301fafb9d54c9396c20bfcfe67fded5a1e
 Permalink tệp thuật toán chính tại C: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e/src/DeTai.jl
 Permalink tệp kiểm thử tại C: https://github.com/namnh9681-sys/N24DCDT051_DT046_NguyenHoangNam/blob/43bc4a301fafb9d54c9396c20bfcfe67fded5a1e/test/runtests.jl
-SHA S đầy đủ của phiên bản nộp cuối: 43bc4a301fafb9d54c9396c20bfcfe67fded5a1e
+SHA S đầy đủ của phiên bản nộp cuối: a774e25e39292145f3c42d522a3d1bc7912f5caa
 Xác nhận mã/test/input không đổi giữa C và S, hoặc mô tả phần đã chạy lại: Mã nguồn, test và input đồng nhất giữa C và S tại Mốc 2.
 
 Ngôn ngữ và phiên bản: Julia 1.12.7
